@@ -1,0 +1,328 @@
+
+.icon-bar {
+    width: 25%;
+	float:left;
+	padding:35px 0px;
+}
+.full_width_section > .row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.clean-space {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+.userMenuBox {
+	background-color:#414042;
+    display: inline-block;
+    width: 100%;
+}
+
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px 0px;
+    transition: all 0.3s ease;
+    color: #d2d2d2;
+    font-size: 12px;
+	border-bottom:1px solid #d0cfd0;
+	margin:0px 10px;
+}
+
+.icon-bar a:hover {
+    background-color: #000; /* Add a hover color */
+}
+.grey-bc {
+	background-color:rgba(109, 110, 113, 0.7);
+	color:#fff;
+}
+img {
+	max-width:100%;
+}
+.userMenuDetails {
+	float:left;
+	width:75%;
+	padding:35px 10px 5px;
+}
+.copyright {
+	margin-top:25px;
+}
+.userMenuBox, .userMenuBox h3 {
+	color:#fff;
+}
+.userMenuBox h3 {
+	margin-top:10px;
+}
+.user-box {
+	padding-bottom: 10px;
+    border-bottom: 1px solid #fff;
+}
+.img-icons {
+	max-height:28px;
+	max-width:28px;
+}
+.SharedFiles img {
+	max-height:32px;
+}
+.SponcerIcons {
+	padding:20px;
+}
+ul.user-activites, .SharedFiles ul {
+	display:inline-block;
+	width:100%;
+    padding: 0px 10px;
+}
+ul.user-activites li, .SharedFiles li {
+	list-style:none;
+	line-height: 28px;
+}
+.SharedFiles li {
+	margin:5px 0px;
+}
+.SharedFiles .heading {
+	border-bottom:1px solid #333;
+	padding-left:10px;
+}
+.SharedFiles {
+	min-height:260px;
+	border-bottom:1px solid #333;
+	border-top:1px solid #333;
+}
+ul.user-activites label {
+	position: absolute;
+    margin-left: 10px;
+    font-weight: normal;
+}
+.sub-activites {
+	margin-left:20px;
+}
+input[type='checkbox'] {
+	width: 18px;
+    height: 18px;
+    background-color: #fff;
+}
+.box-header h3 {
+	border-bottom:1px solid #333;
+}
+.box-head {
+	display:inline-block;
+	width:100%;
+}
+.box-head .icon-imgs {
+	max-height:32px;
+}
+.head-icons {
+	padding:10px 10px 10px 0px;
+}
+.imgBoxSection {
+	vertical-align: middle;
+	border-radius:10px;
+	border:1px solid #3f3f3f;
+    height: 400px;
+    width: 100%;
+	margin:5px 0px;
+}
+a .imgBoxSection {
+	color:#fff;
+	text-align:center;
+}
+.imgTable {
+	width:100%;
+	display:table;
+}
+.imgBoxSection .imgBox {
+	height:339px;
+	vertical-align: middle;
+    display: table-cell;
+}
+.imgBoxSection .titleBox {
+	background-color:#27AAE1;
+	padding:20px;
+	
+	-webkit-border-bottom-right-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-moz-border-radius-bottomright: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+.imgBoxSection .imgBox img {
+	max-height:339px;
+	max-width:100%;
+}
+.full-width {
+	display:inline-block;
+	width:100%;
+}
+.userMenuBox .icon-bar span {
+	width:100%;
+	display:inline-block;
+}
+
+
+.messageBoxes .mytext {
+    border:1px solid;
+	padding:15px 20px;
+	background:#fff;
+}
+.messageBoxes .text {
+    width:75%;
+	display:flex;
+	flex-direction:column;
+}
+.messageBoxes .text > p:first-of-type {
+    width:100%;
+	margin-top:0;
+	margin-bottom:auto;
+	line-height: 13px;
+	font-size: 12px;
+}
+.messageBoxes .text-l > p:last-of-type {
+	color:#333;
+}
+.messageBoxes .text-r > p:last-of-type {
+	color:#fff;
+}
+.messageBoxes .text > p:last-of-type {
+    width:100%;
+	text-align:right;
+	margin-bottom:-7px;
+	margin-top:auto;
+}
+.messageBoxes .text-l {
+    float:left;
+	padding-right:10px;
+}        
+.messageBoxes .text-r {
+    float:right;
+	padding-left:10px;
+}
+.messageBoxes .avatar {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:25%;
+    float:left;
+    padding-right:10px;
+}
+.messageBoxes .macro {
+    margin-top:12px;
+	width:85%;
+	border-radius:5px;
+	padding:5px;
+	display:flex;
+}
+.messageBoxes .msj-rta {
+    float:right;
+	background-color:#27AAE1;
+	color:#fff;
+}
+.messageBoxes .msj {
+    float:left;
+	background-color:#e0e0de;
+}
+.messageBoxes .frame {
+    /*background:#cdcdcd;*/
+    min-height:590px;
+	overflow:hidden;
+    padding:0;
+}
+.messageBody {
+	height:550px;
+	overflow-y:auto;
+    overflow-x:hidden;
+}
+.message-right-section {
+	border-left: 1px solid;
+}
+.message-right-section .user-icons, .message-right-section .user-details {
+	padding-top: 10px;
+    padding-left: 10px;
+}
+.userOnlineStatus {
+	padding:10px;
+	width:100%;
+	display:inline-block;
+	border-bottom:1px solid;
+	text-align:right;
+}
+.userOnlineStatus .userNames {
+	font-size:32px;
+	line-height:32px;
+}
+img.online-status {
+	max-width:36px;
+}
+.messageBoxes .frame > div:last-of-type{
+    /*position:absolute;*/
+	bottom:5px;
+	width:100%;
+	display:flex;
+    border-top: 1px solid;
+}
+.messageBoxes ul {
+    width:100%;
+    list-style-type: none;
+    padding:18px;
+    /*position:absolute;*/
+    bottom:32px;
+    display:flex;
+    flex-direction: column;
+
+}
+.messageBoxes .msj:before {
+    width: 0;
+    height: 0;
+    content:"";
+    top:-5px;
+    left:-14px;
+    position:relative;
+    border-style: solid;
+    border-width: 0 13px 13px 0;
+    border-color: transparent #e0e0de transparent transparent;            
+}
+.messageBoxes .msj-rta:after {
+    width: 0;
+    height: 0;
+    content:"";
+    top:-5px;
+    left:14px;
+    position:relative;
+    border-style: solid;
+    border-width: 13px 13px 0 0;
+    border-color: #27AAE1 transparent transparent transparent;           
+}
+.messageBoxes input:focus {
+    outline: none;
+}
+.messageBoxes ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #d4d4d4;
+}
+.messageBoxes ::-moz-placeholder { /* Firefox 19+ */
+    color: #d4d4d4;
+}
+.messageBoxes :-ms-input-placeholder { /* IE 10+ */
+    color: #d4d4d4;
+}
+.messageBoxes :-moz-placeholder { /* Firefox 18- */
+    color: #d4d4d4;
+}
+.messageBoxes .messageForms .msj-rta {
+	background-color:#fff;
+	padding:10px 0px;
+	width:100%;
+}
+.messageBoxes .messageForms .msj-rta:after {
+	border:none;
+}
+.formBtns img {
+	max-height:48px;
+}
+.formBtns {
+	padding:0px 15px;
+}
+@media screen and (min-width: 480px) {
+	.messageBoxes .messageForms .text-r {
+		width:90%;
+	}
+}
